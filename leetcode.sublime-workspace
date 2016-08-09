@@ -1,0 +1,250 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"test",
+				"testnum"
+			],
+			[
+				"font",
+				"font_size"
+			],
+			[
+				"num",
+				"numRows"
+			],
+			[
+				"lef",
+				"leftTurn"
+			],
+			[
+				"left",
+				"leftStep"
+			],
+			[
+				"std",
+				"stdin"
+			],
+			[
+				"l",
+				"loop	loop { … }"
+			],
+			[
+				"ext",
+				"extern-crate	extern crate …;"
+			],
+			[
+				"ser",
+				"secret_number"
+			],
+			[
+				"prin",
+				"println	println!(…)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package cont",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener(urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/musteryu/Desktop/leetcode"
+	],
+	"file_history":
+	[
+		"/Users/musteryu/Desktop/leetcode/No.10 Regular Expression Matching/solution.py",
+		"/Users/musteryu/Desktop/leetcode/No.9 Palindrome Number/test.txt",
+		"/Users/musteryu/Desktop/leetcode/No.9 Palindrome Number/solution.py",
+		"/Users/musteryu/Desktop/neo/neo.py",
+		"/Users/musteryu/Downloads/GCC_4_7_0/19/useScreen.cc",
+		"/Users/musteryu/Desktop/leetcode/No.8 String to Integer/solution.py",
+		"/Users/musteryu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/musteryu/Desktop/leetcode/No.7 Reverse Integer/solution.py",
+		"/Users/musteryu/Desktop/No.6 ZigZag Conversion/solution.py",
+		"/Users/musteryu/Documents/Coursera/algorithm-I/Assignment-1-Percolation/src/Percolation.java",
+		"/Users/musteryu/Downloads/A_Star_8-puzzle/a_star_8_puzzle.cpp",
+		"/Users/musteryu/Downloads/GCC_4_7_0/19/Screen.cc",
+		"/Users/musteryu/Downloads/GCC_4_7_0/19/TextQuery.h",
+		"/Users/musteryu/Downloads/GCC_4_7_0/19/bitfields.cc",
+		"/Users/musteryu/Desktop/rust_trial.rs",
+		"/Users/musteryu/Desktop/hello_world.rs",
+		"/Users/musteryu/Library/Application Support/Sublime Text 3/Packages/User/RustAutoComplete.sublime-settings",
+		"/Users/musteryu/Library/Application Support/Sublime Text 3/Packages/RustAutoComplete/Preferences.sublime-settings",
+		"/Users/musteryu/Desktop/neo/testneo.py",
+		"/Users/musteryu/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/musteryu/Documents/workspace/WebFilter/src/HtmlFilter.java"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sign",
+			";",
+			"sublime"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "leetcode.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

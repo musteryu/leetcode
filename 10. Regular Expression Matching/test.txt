@@ -1,0 +1,11 @@
+aab c*a*b
+aabbb a*b*
+aabbb .*.*
+aaaaaaaaaaaaa .*
+aaaaaaaaaaaab .*
+a .
+a a
+a b
+a *
+ab .*
+aaaaaac .*cc

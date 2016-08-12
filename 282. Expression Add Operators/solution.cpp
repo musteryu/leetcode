@@ -9,15 +9,22 @@ private:
                 string t = num.substr(pos, i-pos);
                 long now = stol(t);
                 if (to_string(now) != t) continue;
-                dfs(res, num, target, cur+'+'+t, i, cv+now, now, '+');
-                dfs(res, num, target, cur+'-'+t, i, cv-now, now, '-');
-                dfs(res, num, target, cur+'*'+t, i, (op == '-') ? cv+pv - pv*now : ((op == '+') ? cv-pv + pv*now : pv*now), pv*now, op);
+                dfs(num, target, cur+'+'+t, i, cv+now, now, '+');
+                dfs(num, target, cur+'-'+t, i, cv-now, now, '-');
+                dfs(num, target, cur+'*'+t, i, (op == '-') ? cv+pv - pv*now : ((op == '+') ? cv-pv + pv*now : pv*now), pv*now, op);
             }
         }
     }
 
 public:
     vector<string> addOperators(string num, int target) {
-        
+        res.clear();
+        for (int i = 1; i <= num.size(); i++) {
+            string s = num.substr(0, i);
+            long cur = stol(s);
+            if (to_string(cur) != s) continue;
+            dfs(num, target, s, i, cur, cur, '#');
+        }
+        return res;
     }
 };

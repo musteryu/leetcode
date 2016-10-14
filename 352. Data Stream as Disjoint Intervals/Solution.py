@@ -38,17 +38,17 @@ class SummaryRanges(object):
             return
         if r < len(intervals):
             ra, rb = intervals[r].start, intervals[r].end
-            if la + 1 == val and val + 1 < ra:
+            if lb + 1 == val and val + 1 < ra:
                 intervals[l] = Interval(la, val)
-            elif la + 1 < val and val + 1 == ra:
+            elif lb + 1 < val and val + 1 == ra:
                 intervals[r] = Interval(val, rb)
-            elif la + 1 == val and val + 1 == ra:
+            elif lb + 1 == val and val + 1 == ra:
                 intervals[l] = Interval(la, rb)
                 del intervals[r]
             else:
                 intervals.insert(r, Interval(val, val))
         else:
-            if la + 1 == val:
+            if lb + 1 == val:
                 intervals[l] = Interval(la, val)
             else:
                 intervals.append(Interval(val, val))

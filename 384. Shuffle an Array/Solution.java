@@ -1,29 +1,28 @@
 public class Solution {
     private int[] nums;
+    private int[] original;
     private Random rand;
 
-    public Solution(int[] nums_) {
-        nums = nums_;
-        rand = new Random();
+    public Solution(int[] nums) {
+        this.nums = nums;
+        this.original = Arrays.copyOf(nums, nums.length);
+        this.rand = new Random();
     }
     
     /** Resets the array to its original configuration and return it. */
     public int[] reset() {
-        return this.nums;
+        return this.original;
     }
     
     /** Returns a random shuffling of the array. */
     public int[] shuffle() {
-        int[] newNums = Arrays.copyOf(nums, nums.length);
-        int a = 0, b = 0;
-        while (a == b) {
-            a = rand.nextInt();
-            b = rand.nextInt();
+        for (int i = nums.length - 1; i >= 0; --i) {
+            int j = rand.nextInt(i + 1);
+            int tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
         }
-        int tmp = newNums[a];
-        newNums[a] = newNums[b];
-        newNums[b] = tmp;
-        return newNums;
+        return nums;
     }
 }
 

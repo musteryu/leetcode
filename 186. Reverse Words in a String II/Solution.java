@@ -1,26 +1,22 @@
-import java.util.Collections;
-
 public class Solution {
-    private void swap(char[] s, int i, int j) {
-        char tmp = s[i];
-        s[i] = s[j];
-        s[j] = tmp;
-    }
-
-    private void reverseWords(char[] s, int begin, int end) {
-        while (begin < end) {
-            swap(s, begin++, --end);
-        }
-    }
-
     public void reverseWords(char[] s) {
-        int begin = 0;
-        for (int end = 1; end <= s.length; ++end) {
-            if (end == s.length || s[end] == ' ') {
-                reverseWords(s, begin, end);
-                begin = ++end;
+        if (s.length == 0) return;
+        for (int l = 0, r = 0; r <= s.length; ++r) {
+            if (r == s.length || s[r] == ' ') {
+                reverse(s, l, r - 1);
+                l = r + 1;
             }
         }
-        reverseWords(s, 0, s.length);
+        reverse(s, 0, s.length-1);
+    }
+
+    private void reverse(char[] s, int l, int r) {
+        while (l < r) {
+            char tmp = s[l];
+            s[l] = s[r];
+            s[r] = tmp;
+            ++l;
+            --r;
+        }
     }
 }
